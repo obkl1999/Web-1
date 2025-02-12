@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 1410px;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 8px;
+    padding-right: auto;
+    text-align: right;
+}
+
+.logo {
+    width: 180px;
+    padding: 10px;
+}
+.hero {
+    background-image: url(../thornbloom/images/banner-img.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    margin: 30px;
+    height: 300px;
+    width: 1410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero a {
+    background-color: #08266c;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.hero a:hover {
+    background-color: white;
+    color: #08266c;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 50px;
+}
+/*Main Content*/
+
+.container {
+    background-color: white;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    width: 1410px;
+    margin: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.button-boxes {
+    gap: 8px;
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-position: center center;
+    width: 1440px;
+}
+main .button-one {
+    background-color: #08266c;
+    color: white;
+    border: solid #08266c;
+    text-decoration: none;
+    padding: 10px 40px;
+    object-position: center center;
+}
+
+.button-one:hover {
+    background-color: white;
+    color: #08266c;
+}
+
+main .button-two {
+    background-color: white;
+    color: #08266c;
+    border: solid #08266c;
+    text-decoration: none;
+    padding: 10px 40px;
+    object-position: center center;
+}
+
+.button-two:hover {
+background-color: #08266c;
+color: white;
+}
+
+.box-container {
+    object-position: center center;
+    min-width: 1410px;
+    background-color: white;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+}
+.boxes {
+    display: flex;
+}
+
+.image-one {
+    background-color: white;
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+}
+.text-one {
+    background-color: white;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.h2 {
+    color: navy;
+    padding: 30px;
+}
+    
+.image-two {
+    background-color: white;
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+    object-position: right;
+}
+
+.text-two {
+    flex-grow: 1;
+    padding: 20px;
+}
+.text-three {
+    flex-grow: 1;
+    padding: 20px;
+}
+.image-three {
+    background-color: white;
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+}
+
+.text-four {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.image-four {
+    background-color: white;
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.p1 {
+    padding: 10px;
+}
+
+.p2 {
+    padding: 10px;
+}
+
+.p3 {
+    padding: 10px;
+}
+
+.p4 {
+    padding:10px;
+    text-align: center;
+}
+
+.p5 {
+    text-align: right;
+    padding: 10px;
+}
+footer {
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: 100%;
+    width: 1410px;
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+    margin: 30px;
+}
+
+.image-five {
+background-color: white;
+flex-grow: 1;
+padding: 10px;
+}
+
+
